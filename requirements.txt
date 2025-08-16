@@ -4,3 +4,4 @@ pillow
 tensorflow
 numpy
 python-multipart
+streamlit
