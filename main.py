@@ -8,7 +8,7 @@ import json
 app = FastAPI()
 
 # Load the model and class names
-model = load_model("foodvision_model.keras")
+model = load_model("foodvision_model.h5")
 
 with open("class_names.json", "r") as f:
     class_names = json.load(f)

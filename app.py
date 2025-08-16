@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # --- Load model and class names ---
 @st.cache_resource
 def load_foodvision_model():
-    model = load_model("foodvision_model.keras")  # use .keras not .h5
+    model = load_model("foodvision_model.keras", safe_mode=False)  # use .keras not .h5
     return model
 
 @st.cache_data
